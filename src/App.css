@@ -43,6 +43,7 @@ section{
 .section{
    margin: 10px 10px;
    margin-top: 20px;
+   width: 100%;
    padding: 5px;
    /* border-color: black;
    border-style: dashed; */
