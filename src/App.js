@@ -8,7 +8,10 @@ const cards = data.map(item => {
   return (
       <Card 
           key={item.id}
-          item={item}
+          {...item}  //send item to props same as given names in data 
+
+          // item={item} //creates another object item to hold item's value
+
           // img={item.coverImg}
           // rating={item.stats.rating}
           // reviewCount={item.stats.reviewCount}
